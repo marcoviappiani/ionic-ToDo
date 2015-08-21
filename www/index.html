@@ -9,9 +9,19 @@
 
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
+    <script src="js/app.js"></script>
+
     <!-- Needed for Cordova/PhoneGap (will be a 404 during development) -->
     <script src="cordova.js"></script>
   </head>
-  <body>
+  <body ng-app="todo">
+    <ion-side-menus>
+    <!-- Left menu -->
+      <ion-side-menu-content>
+      <!-- Main content, usually <ion-nav-view> -->
+      </ion-side-menu-content>
+      <ion-side-menu side="left">
+      </ion-side-menu>
+    </ion-side-menus>
   </body>
 </html>
